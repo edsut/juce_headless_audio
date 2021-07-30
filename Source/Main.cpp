@@ -60,7 +60,6 @@ public:
             }
             else if (clis[i].startsWith("devname=")) {
                 justaudiostuff.devname = clis[i].substring(8);
-                shutdown();
             }
             else {
                 if (clis[i].compare("help") != 0)
